@@ -1,6 +1,6 @@
 # 🐍 Baekjoon & Programmers Study
-백준과 프로그래머스를 통해 Python 알고리즘 문제 해결력과 SQL 데이터 처리 역량을 함께 기르는 저장소입니다.
-This repository contains my Python (BOJ) and SQL (Programmers) solutions for algorithmic and data manipulation problems.
+## 백준과 프로그래머스를 통해 Python 알고리즘 문제 해결력과 SQL 데이터 처리 역량을 함께 기르는 저장소입니다.
+## This repository contains my Python (BOJ) and SQL (Programmers) solutions for algorithmic and data manipulation problems.
 
 ---
 
