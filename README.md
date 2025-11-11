@@ -30,6 +30,6 @@
 
 ---
 
-💬 Contact
-	•	GitHub: amuldi￼
-	•	Email: kshjjmja1116@icloud.com
+## 💬 Contact
+- GitHub: amuldi￼
+- Email: kshjjmja1116@icloud.com
