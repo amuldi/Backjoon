@@ -22,7 +22,7 @@
 | **ROUND()** | 숫자를 지정된 자릿수에서 반올림 처리 | `ROUND(AVG(score), 2)` | 
 | **IFNULL()** | 컬럼 값이 NULL일 경우, 지정된 대체 값으로 변경 | `IFNULL(freezer_yn, 'N')` | 
 | **IS NULL / IS NOT NULL** |`NULL` 값의 유무를 확인하여 필터링합니다. | `WHERE address IS NULL` (주소 값이 NULL인 행 필터링) |
-| **AS** | 컬럼이나 테이블에 별칭(Alias) 부여 | `ROUND(AVG(score)) AS avg_score` | 
+| **AS** | 컬럼이나 테이블에 별칭 부여 | `ROUND(AVG(score)) AS avg_score` | 
 
 ## 3. 테이블 결합 및 데이터 수정 문법
 
