@@ -9,7 +9,7 @@
 | **WHERE** | 행(레코드)에 조건을 걸어 데이터 필터링 | WHERE [조건] | `WHERE category = '인문'` |
 | **LIKE** | 특정 문자열 패턴 검색 | WHERE [컬럼] LIKE '패턴' | `WHERE address LIKE '서울%'` |
 | **GROUP BY** | 집계 함수(AVG, SUM 등) 사용 시, 결과를 특정 기준으로 묶어 계산 | GROUP BY [컬럼] | `GROUP BY i.rest_id` |
-| **ORDER BY** | 최종 결과를 특정 컬럼 기준으로 정렬 (기본: ASC, 내림차순: DESC) | ORDER BY [컬럼] [DESC/ASC] | `ORDER BY score DESC, date ASC` |
+| **ORDER BY** | 최종 결과를 특정 컬럼 기준으로 정렬 (기본: ASC, 내림차순: DESC) | ORDER BY [컬럼] [DESC/ASC] | `ORDER BY score DESC/ASC` |
 
 ## 2. 날짜, 숫자, NULL 처리 함수
 
