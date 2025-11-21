@@ -27,6 +27,6 @@
 
 | 문법 | 해설 (관계 설정 및 목적) | 사용 예시 |
 | :--- | :--- | :--- |
-| **JOIN** | 두 테이블의 공통 키(Key)가 일치하는 행을 결합 | `JOIN TableB B ON A.id = B.id` |
-| **UNION ALL** | 두 쿼리 결과를 세로로 결합하며, 중복 행을 제거하지 않음 (속도 빠름) | `SELECT col FROM A UNION ALL SELECT col FROM B` |
-| **UPDATE ... JOIN** | 다른 테이블의 데이터를 참조하여 대상 테이블의 값을 업데이트 (MySQL 방식) | `UPDATE TableA a JOIN TableB b ON a.id = b.id SET a.col = b.col` |
+| **JOIN** | 두 테이블의 공통 키가 일치하는 행을 결합 | `JOIN TableB B ON A.id = B.id` |
+| **UNION ALL** | 두 쿼리 결과를 세로로 결합하며, 중복 행을 제거하지 않음 | `SELECT col FROM A UNION ALL SELECT col FROM B` |
+| **UPDATE ... JOIN** | 다른 테이블의 데이터를 참조하여 대상 테이블의 값을 업데이트 | `UPDATE TableA a JOIN TableB b ON a.id = b.id SET a.col = b.col` |
