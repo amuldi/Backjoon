@@ -13,18 +13,18 @@
 
 ## 2. 날짜, 숫자, NULL 처리 함수
 
-| 함수/문법 | 해설 (기능) | 사용 예시 | 결과 |
+| 함수/문법 | 해설 (기능) | 사용 예시 | 
 | :--- | :--- | :--- | :--- |
-| **YEAR() / MONTH()** | 날짜/시간 컬럼에서 연도나 월을 추출 | `WHERE YEAR(date) = 2021` | 2021년 데이터 필터링 |
-| **DATE_FORMAT()** | 날짜를 지정된 형식의 문자열로 변환하여 출력 | `DATE_FORMAT(date, '%Y-%m-%d')` | `2025-11-21` |
-| **AVG()** | 선택된 컬럼의 값들에 대한 평균을 계산 (집계 함수) | `SELECT AVG(score)` | 평균 점수 반환 |
-| **ROUND()** | 숫자를 지정된 자릿수에서 반올림 처리 | `ROUND(AVG(score), 2)` | 소수점 셋째 자리에서 반올림 |
-| **IFNULL()** | 컬럼 값이 NULL일 경우, 지정된 대체 값으로 변경 | `IFNULL(freezer_yn, 'N')` | NULL이면 'N'으로 출력 |
-| **AS** | 컬럼이나 테이블에 별칭(Alias) 부여 | `ROUND(AVG(score)) AS avg_score` | `avg_score`라는 이름으로 출력 |
+| **YEAR() / MONTH()** | 날짜/시간 컬럼에서 연도나 월을 추출 | `WHERE YEAR(date) = 2021` | 
+| **DATE_FORMAT()** | 날짜를 지정된 형식의 문자열로 변환하여 출력 | `DATE_FORMAT(date, '%Y-%m-%d')` | 
+| **AVG()** | 선택된 컬럼의 값들에 대한 평균을 계산 (집계 함수) | `SELECT AVG(score)` | 
+| **ROUND()** | 숫자를 지정된 자릿수에서 반올림 처리 | `ROUND(AVG(score), 2)` | 
+| **IFNULL()** | 컬럼 값이 NULL일 경우, 지정된 대체 값으로 변경 | `IFNULL(freezer_yn, 'N')` | 
+| **AS** | 컬럼이나 테이블에 별칭(Alias) 부여 | `ROUND(AVG(score)) AS avg_score` | 
 
 ## 3. 테이블 결합 및 데이터 수정 문법
 
-| 문법 | 해설 (관계 설정 및 목적) | 핵심 사용 예시 |
+| 문법 | 해설 (관계 설정 및 목적) | 사용 예시 |
 | :--- | :--- | :--- |
 | **JOIN** | 두 테이블의 공통 키(Key)가 일치하는 행을 결합 | `JOIN TableB B ON A.id = B.id` |
 | **UNION ALL** | 두 쿼리 결과를 세로로 결합하며, 중복 행을 제거하지 않음 (속도 빠름) | `SELECT col FROM A UNION ALL SELECT col FROM B` |
