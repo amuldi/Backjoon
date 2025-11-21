@@ -10,7 +10,7 @@
 | **LIKE** | 특정 문자열 패턴 검색 | WHERE [컬럼] LIKE '패턴' | `WHERE address LIKE '서울%'` |
 | **GROUP BY** |  결과를 특정 기준으로 묶어 계산 | GROUP BY [컬럼] | `GROUP BY i.rest_id` |
 | **ORDER BY** | 최종 결과를 특정 컬럼 기준으로 정렬  | ORDER BY [컬럼] [DESC/ASC] | `ORDER BY score DESC/ASC` |
-| **LIMIT** | 쿼리 결과의 행 개수를 지정된 수만큼만 제한 | LIMIT [숫자] | LIMIT 10 (가장 위 10개만 출력) |
+| **LIMIT** | 쿼리 결과의 행 개수를 지정된 수만큼만 제한 | LIMIT [숫자] | LIMIT 10 ('가장 위 10개만 출력)' |
 
 ## 2. 날짜, 숫자, NULL 처리 함수
 
