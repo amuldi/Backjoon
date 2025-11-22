@@ -3,7 +3,7 @@
 
 ---
 
-## 🎯 Study Goals  
+## Study Goals  
 - 파이썬 기본 문법을 문제 해결에 자연스럽게 적용하기   
 - 효율적인 코드 작성과 시간 복잡도 이해 향상  
 - 코딩 테스트 및 실무 문제 해결 능력 강화
@@ -14,6 +14,6 @@
 
 ---
 
-## 💬 Contact
+## Contact
 - GitHub: amuldi￼
 - Email: kshjjmja1116@icloud.com
