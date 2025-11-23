@@ -3,7 +3,7 @@
 ## 1. 쿼리 기본 구조 및 필터링
 
 | 문법 | 해설 (목적) | 사용 예시 |
-| :--- | :--- | :--- | :--- |
+| :--- | :--- | :--- | 
 | **SELECT** | 조회할 컬럼(열) 지정|`SELECT ITEM_ID, RARITY` |
 | **DISTINCT** | `SELECT`된 결과 행의 중복을 제거 | `SELECT DISTINCT name` |
 | **FROM** | 데이터를 가져올 대상 테이블 지정 | `FROM food_warehouse` |
